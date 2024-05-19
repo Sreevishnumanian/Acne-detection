@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Analysis Result</title>
+   
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<!-- <body>
+    <h1>Image Analysis Result</h1>
+    <p>Number of potential pimples: {{ pimple_count }}</p>
+    <p>Recommended OTC products for pimples:</p>
+    <ul>
+        {% for recommendation in recommendations %}
+            <li>{{ recommendation }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/">Upload Another Image</a>
+    <script type="text/javascript" src="C:\Users\sreev\OneDrive\Desktop\aaa\js\upload.js"></script>
+</body> -->
+<body>
+    <h1>Pimple Detection Result</h1>
+    <p>Pimple Probability: {{ pimple_probability }}</p>
+    <p>Recommendations: {{ recommendations }}</p>
+</body>
+</html>

@@ -1,0 +1,87 @@
+/* body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+}  */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('1-04244.jpg'); /* Replace 'background.jpg' with your background image file */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 600px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.result-container {
+    margin-top: 30px;
+}
+
+.result-text {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.result-number {
+    font-weight: bold;
+    color: #ff5733; /* Orange color for result number */
+}
+
+.recommendation-list {
+    list-style: none;
+    padding: 0;
+}
+
+.recommendation-list li {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #4caf50; /* Green color for recommendations */
+}
+
+.upload-link {
+    display: block;
+    margin-top: 30px;
+    font-size: 18px;
+    color: #007bff; /* Blue color for upload link */
+    text-decoration: none;
+}
